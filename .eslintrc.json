@@ -11,7 +11,8 @@
       "rules": {
         "no-unused-vars": "error",
         "no-console": "error",
-        "@typescript-eslint/naming-convention": "off"
+        "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/consistent-type-definitions": "off"
       }
     }
   ],
