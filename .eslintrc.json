@@ -9,13 +9,25 @@
       "extends": ["xo-typescript", "prettier"],
       "files": ["*.ts", "*.tsx"],
       "rules": {
+        "no-console": "error",
         "no-unused-vars": "error",
-        "no-console": "error"
+        "@typescript-eslint/consistent-type-definitions": [
+          "error",
+          "interface"
+        ],
+        "@typescript-eslint/naming-convention": "off",
+        "new-cap": [
+          "error",
+          {
+            "capIsNewExceptions": ["Router"]
+          }
+        ]
       }
     }
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
-  }
+  },
+  "rules": {}
 }
