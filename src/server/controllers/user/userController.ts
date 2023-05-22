@@ -1,6 +1,5 @@
-import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
-import { type JwtPayload } from "jsonwebtoken";
+import jwt, { type JwtPayload } from "jsonwebtoken";
 import { type Response, type NextFunction } from "express";
 import { type UserLoginRequestStrucuture } from "../../types.js";
 import User from "../../../database/models/User.js";
